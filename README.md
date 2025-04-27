@@ -34,7 +34,7 @@ It provides dynamic, filterable visualizations to help movie enthusiasts, filmma
 
 ---
 
-## 📦 Technologies Used
+##  Technologies Used
 
 - Python
 - Dash
@@ -44,7 +44,7 @@ It provides dynamic, filterable visualizations to help movie enthusiasts, filmma
 
 ---
 
-##  Dataset
+## Dataset
 
 - Source: [IMDb Top 1000 Movies Dataset on Kaggle](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows)
 - Attributes: Series Title, Released Year, IMDB Rating, Gross, Genre, Certificate, Director, No. of Votes, etc.
