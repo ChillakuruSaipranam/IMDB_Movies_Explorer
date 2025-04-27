@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# VSCode settings (optional)
+.vscode/
+
+# MacOS junk files
+.DS_Store
+
+# Environment and secret files
+.env
