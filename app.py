@@ -171,5 +171,4 @@ def compare_movies(movie1, movie2):
 # --- Run Server ---
 if __name__ == '__main__':
     app.title = "IMDb Dashboard"
-    app.run_server(debug=False, host="0.0.0.0", port=8080)
-
+    app.run(debug=False, host="0.0.0.0", port=8080)
