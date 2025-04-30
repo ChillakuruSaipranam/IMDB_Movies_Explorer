@@ -8,7 +8,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # --- Load and Clean Data ---
-df = pd.read_csv("movies.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/ChillakuruSaipranam/IMDB_Movies_Explorer/refs/heads/main/movies.csv")
 df = df.dropna(subset=['Series_Title', 'Released_Year', 'IMDB_Rating', 'No_of_Votes', 'Genre', 'Certificate', 'Director'])
 df['Released_Year'] = pd.to_numeric(df['Released_Year'], errors='coerce')
 df['Gross'] = df['Gross'].replace(r'[\$,]', '', regex=True)
